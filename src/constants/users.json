@@ -1,0 +1,146 @@
+[
+  {
+    "name": "John Doe",
+    "age": 30,
+    "type": "Shipper",
+    "about": "John is an experienced shipper who specializes in international logistics.",
+    "image": "john-doe.png",
+    "company": "Global Logistics Inc.",
+    "favorite": false
+  },
+  {
+    "name": "Jane Smith",
+    "age": 25,
+    "type": "Transporter",
+    "about": "Jane is a reliable transporter with a fleet of trucks serving various industries.",
+    "image": "jane-smith.png",
+    "company": "Smith Transport Services",
+    "favorite": true
+  },
+  {
+    "name": "Michael Johnson",
+    "age": 40,
+    "type": "Recipient",
+    "about": "Michael is a meticulous recipient who ensures every delivery meets his standards.",
+    "image": "michael-johnson.png",
+    "company": "Johnson Enterprises",
+    "favorite": false
+  },
+  {
+    "name": "Emily Brown",
+    "age": 28,
+    "type": "Shipper",
+    "about": "Emily is a creative shipper with innovative solutions for complex shipping needs.",
+    "image": "emily-brown.png",
+    "company": "Brown Shipping Co.",
+    "favorite": true
+  },
+  {
+    "name": "David Wilson",
+    "age": 35,
+    "type": "Transporter",
+    "about": "David is a seasoned transporter known for his punctuality and professionalism.",
+    "image": "david-wilson.png",
+    "company": "Wilson Logistics Group",
+    "favorite": false
+  },
+  {
+    "name": "Sarah Martinez",
+    "age": 32,
+    "type": "Recipient",
+    "about": "Sarah is a discerning recipient who values efficiency and accuracy in deliveries.",
+    "image": "sarah-martinez.png",
+    "company": "Martinez Distribution Ltd.",
+    "favorite": true
+  },
+  {
+    "name": "Christopher Taylor",
+    "age": 33,
+    "type": "Shipper",
+    "about": "Christopher is a dedicated shipper committed to providing top-notch logistics services.",
+    "image": "christopher-taylor.png",
+    "company": "Taylor Logistics Solutions",
+    "favorite": false
+  },
+  {
+    "name": "Amanda Davis",
+    "age": 29,
+    "type": "Transporter",
+    "about": "Amanda is an agile transporter adept at navigating complex transportation networks.",
+    "image": "amanda-davis.png",
+    "company": "Davis Transport Inc.",
+    "favorite": true
+  },
+  {
+    "name": "Matthew Rodriguez",
+    "age": 37,
+    "type": "Recipient",
+    "about": "Matthew is a dependable recipient who ensures shipments reach their destination safely.",
+    "image": "matthew-rodriguez.png",
+    "company": "Rodriguez Shipping Services",
+    "favorite": false
+  },
+  {
+    "name": "Jennifer Wilson",
+    "age": 31,
+    "type": "Shipper",
+    "about": "Jennifer is a dynamic shipper who excels in coordinating logistics for large-scale projects.",
+    "image": "jennifer-wilson.png",
+    "company": "Wilson Logistics Group",
+    "favorite": true
+  },
+  {
+    "name": "Daniel Thompson",
+    "age": 34,
+    "type": "Transporter",
+    "about": "Daniel is a resourceful transporter known for finding efficient routes for deliveries.",
+    "image": "daniel-thompson.png",
+    "company": "Thompson Freight Services",
+    "favorite": false
+  },
+  {
+    "name": "Melissa White",
+    "age": 27,
+    "type": "Recipient",
+    "about": "Melissa is a meticulous recipient who ensures all deliveries are handled with care.",
+    "image": "melissa-white.png",
+    "company": "White Logistics Solutions",
+    "favorite": true
+  },
+  {
+    "name": "James Garcia",
+    "age": 36,
+    "type": "Shipper",
+    "about": "James is a reliable shipper who delivers on time and with attention to detail.",
+    "image": "james-garcia.png",
+    "company": "Garcia Shipping Co.",
+    "favorite": false
+  },
+  {
+    "name": "Ashley Lee",
+    "age": 26,
+    "type": "Transporter",
+    "about": "Ashley is a versatile transporter skilled in managing both local and long-distance shipments.",
+    "image": "ashley-lee.png",
+    "company": "Lee Logistics",
+    "favorite": true
+  },
+  {
+    "name": "Kevin Perez",
+    "age": 38,
+    "type": "Recipient",
+    "about": "Kevin is a discerning recipient who values transparency and communication in deliveries.",
+    "image": "kevin-perez.png",
+    "company": "Perez Transport Solutions",
+    "favorite": false
+  },
+  {
+    "name": "Jessica Nguyen",
+    "age": 33,
+    "type": "Shipper",
+    "about": "Jessica is a dedicated shipper with a passion for finding innovative solutions to logistics challenges.",
+    "image": "jessica-nguyen.png",
+    "company": "Nguyen Logistics Group",
+    "favorite": true
+  }
+]
