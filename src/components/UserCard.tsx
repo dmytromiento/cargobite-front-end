@@ -26,7 +26,7 @@ const UserCard: FC<Props> = ({ name, image, favorite }) => {
         )}
       </div>
       <span className="line-clamp-1 flex-1 text-center">{name}</span>
-      <Button variant="outline" className="flex-2">
+      <Button variant="outline" className="flex-2" href={`/${name}`}>
         View
       </Button>
     </div>
