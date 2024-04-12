@@ -4,7 +4,11 @@ Test assessment showcasing users list application.
 
 ## Screencast
 
-You can find deployed version at: [PLACEHOLDER]
+Screencast showcasing app:
+
+https://github.com/dmytromiento/cargobite-front-end/assets/141241827/de05e2a5-be64-486e-8f92-e5b0bfbb1274
+
+You can find deployed version at: https://cargobite-front-end.vercel.app/
 
 ## Get Started
 
