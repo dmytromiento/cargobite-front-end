@@ -1,10 +1,10 @@
-# Test Assessment
+# Cargobite Test Assessment
 
-Test assessment showcasing Next.js application.
+Test assessment showcasing users list application.
 
 ## Screencast
 
-You can find deployed version at:
+You can find deployed version at: [PLACEHOLDER]
 
 ## Get Started
 
