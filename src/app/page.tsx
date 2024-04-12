@@ -18,6 +18,7 @@ export default function Home() {
   const [userType, setUserType] = useState<UserType | null>(null);
   const [minAge, setMinAge] = useState<number | null>(null);
   const [maxAge, setMaxAge] = useState<number | null>(null);
+  const [favoriteOnly, setFavoriteOnly] = useState<boolean>(false);
 
   const [sortBy, setSortBy] = useState(SORT_OPTIONS[0].value);
   const sortByOption = useMemo(
@@ -25,7 +26,7 @@ export default function Home() {
     [sortBy]
   );
 
-  const users = useUsers({ userType, minAge, maxAge, sortBy });
+  const users = useUsers({ userType, minAge, maxAge, sortBy, favoriteOnly });
 
   return (
     <main className="flex flex-col">
@@ -37,10 +38,12 @@ export default function Home() {
             userType={userType}
             minAge={minAge}
             maxAge={maxAge}
-            onChangeFilter={({ type, minAge, maxAge }) => {
+            favoriteOnly={favoriteOnly}
+            onChangeFilter={({ type, minAge, maxAge, favoriteOnly }) => {
               setUserType(type);
               setMinAge(minAge);
               setMaxAge(maxAge);
+              setFavoriteOnly(favoriteOnly);
             }}
           />
 

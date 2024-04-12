@@ -7,15 +7,20 @@ type Props = {
   userType?: UserType | null;
   minAge?: number | null;
   maxAge?: number | null;
+  favoriteOnly?: boolean;
   sortBy?: UserSortBy;
 };
 const useUsers = (props?: Props): User[] => {
-  const { userType, minAge, maxAge, sortBy } = props ?? {};
+  const { userType, minAge, maxAge, sortBy, favoriteOnly } = props ?? {};
 
   const users = usersData as User[];
 
   return useMemo(() => {
     const resultUsers = users.filter((user) => {
+      if (favoriteOnly && !user.favorite) {
+        return false;
+      }
+
       if (userType && user.type !== userType) {
         return false;
       }
@@ -49,7 +54,7 @@ const useUsers = (props?: Props): User[] => {
     }
 
     return resultUsers;
-  }, [maxAge, minAge, userType, users, sortBy]);
+  }, [users, sortBy, favoriteOnly, userType, minAge, maxAge]);
 };
 
 export default useUsers;
