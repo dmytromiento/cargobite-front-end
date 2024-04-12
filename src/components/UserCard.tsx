@@ -3,7 +3,7 @@ import Image from "next/image";
 import { FC } from "react";
 import { MdFavorite } from "react-icons/md";
 
-import Button from "@/components/Button";
+import Button from "@/components/ui/Button";
 import { User } from "@/types";
 
 type Props = Pick<User, "name" | "image" | "favorite">;

@@ -1,4 +1,4 @@
-import ErrorMessage from "@/components/ErrorMessage";
+import ErrorMessage from "@/components/ui/ErrorMessage";
 import UserDetails from "@/components/UserDetails";
 import useUser from "@/hooks/useUser";
 

@@ -1,6 +1,6 @@
 import { FC } from "react";
 
-import LabeledText from "@/components/LabeledText";
+import LabeledText from "@/components/ui/LabeledText";
 import UserAvatar from "@/components/UserAvatar";
 import { User } from "@/types";
 

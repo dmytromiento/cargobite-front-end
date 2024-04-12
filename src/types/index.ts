@@ -13,3 +13,8 @@ export type User = {
   company: string;
   favorite: boolean;
 };
+
+export type SelectOption<T> = {
+  label: string;
+  value: T;
+};
