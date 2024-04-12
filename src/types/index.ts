@@ -18,3 +18,10 @@ export type SelectOption<T> = {
   label: string;
   value: T;
 };
+
+export enum UserSortBy {
+  NameAsc = "nameAsc",
+  NameDesc = "nameDesc",
+  AgeAsc = "ageAsc",
+  CompanyAsc = "companyAsc",
+}

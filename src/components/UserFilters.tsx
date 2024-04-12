@@ -34,7 +34,7 @@ const UserFilters: FC<Props> = ({
   );
 
   return (
-    <div className="flex flex-col justify-center gap-2 md:flex-row md:items-center">
+    <div className="flex w-full flex-col justify-center gap-2 md:flex-row md:items-center">
       <Select
         options={TYPE_OPTIONS}
         selectedOption={userTypeSelectedOption}
